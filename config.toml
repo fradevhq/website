@@ -1,0 +1,28 @@
+baseURL = "http://localhost:1313"
+languageCode = "en-us"
+title = "FraDev"
+theme = "vec"
+
+[menu]
+  # Shown in the side menu.
+  [[menu.main]]
+    name = "chat"
+    weight = 0
+    url = "https://fradev.herokuapp.com/"
+  [[menu.main]]
+    name = "jobs"
+    weight = 1
+    url = "https://fradevjobs.de"
+  [[menu.main]]
+    name = "devs"
+    weight = 2
+    url = "https://github.com/fradevhq/freelancers"
+
+[params]
+  Avatar = "img/avatar.jpg"
+  Description = "Frankfurt Entwickler Community"
+  DescriptionEn = "Frankfurt Developers Community"
+  SelfIntro = "Willkommen zu FraDev"
+  SelfIntroEn = "Welcome FraDev"
+  Services = "Slack, Meetups, Jobs & Code"
+  Email = "hello@fradev.de"
